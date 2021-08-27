@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-27T17:19:05.398Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18475134000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.weber.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "find the right product",
+        "description": "",
+        "id": "users-should-find-the-right-product;find-the-right-product",
+        "after": [
+          {
+            "result": {
+              "duration": 10177959000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.weber.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3605409000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the Product Finder page",
+            "match": {
+              "location": "com.weber.step_definitions.ProductFinderSteps.the_user_is_on_the_product_finder_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cdiv id\u003d\"6\" class\u003d\"application-presentation-list__icon application-presentation-list__icon--default cheese\"\u003e...\u003c/div\u003e is not clickable at point (1334, 55). Other element would receive the click: \u003cul class\u003d\"main-navigation__list\"\u003e...\u003c/ul\u003e\n  (Session info: chrome\u003d92.0.4515.159)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Cemals-MBP.fritz.box\u0027, ip: \u0027fd00:0:0:0:5049:8b42:7223:ef0c%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/nv/6dvt42ds45j...}, goog:chromeOptions: {debuggerAddress: localhost:52676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ec2a557188d646ed3f9916f80eb1534f\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat com.weber.pages.ProductFinder.enterProductFeature(ProductFinder.java:146)\n\tat com.weber.step_definitions.ProductFinderSteps.user_enters_information_to_find_the_product(ProductFinderSteps.java:30)\n\tat ✽.user enters information to find the product(file:///Users/cemalcetin/IdeaProjects/WeberCucumberSelenium/src/test/resources/features/ProductFinder.feature:6)\n",
+              "duration": 15224637000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user enters information to find the product",
+            "match": {
+              "location": "com.weber.step_definitions.ProductFinderSteps.user_enters_information_to_find_the_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "The user selects the desired product according to the features entered.",
+            "match": {
+              "location": "com.weber.step_definitions.ProductFinderSteps.the_user_selects_the_desired_product_according_to_the_features_entered()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "The user contacts Weber to get detailed information about the product which has chosen.",
+            "match": {
+              "location": "com.weber.step_definitions.ProductFinderSteps.the_user_contacts_weber_to_get_detailed_information_about_the_product_which_has_chosen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@findprodukt"
+          }
+        ]
+      }
+    ],
+    "name": "Users should find the right product",
+    "description": "",
+    "id": "users-should-find-the-right-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ProductFinder.feature",
+    "tags": []
+  }
+]
